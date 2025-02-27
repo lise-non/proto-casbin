@@ -1,0 +1,16 @@
+p, admin, /users, GET
+p, admin, /users, POST
+p, admin, /users, PUT
+p, admin, /users, DELETE
+p, admin, /resources, GET
+p, admin, /resources, POST
+p, admin, /resources, PUT
+p, admin, /resources, DELETE
+p, manager, /users, GET
+p, manager, /resources, GET
+p, manager, /resources, POST
+p, manager, /resources, PUT
+p, user, /resources, GET
+g, admin_user, admin
+g, manager_user, manager
+g, regular_user, user
